@@ -8,6 +8,7 @@ public class UIController : MonoBehaviour {
 
 
     public GameObject startPanel;
+    public GameObject playGamePanel;
     public GameObject gamePanel;
     public GameObject pausePanel;
     public GameObject gameOverPanel;
@@ -21,21 +22,28 @@ public class UIController : MonoBehaviour {
 	public Text bestDistanceRecord;
     public Image moreTime;
 	public OxygenAlertController oxygenAlertController;
+    public GameController gameController;
 
-	private Animator pauseAnimator;
+    private bool openMenuAnimator = false;
+    private Animator pauseAnimator;
+    private Animator menuAnimator;
+    private Animator startAnimator;
     private Image fundido;
+
 
 	
 	void Start () 
     {
         fundido = gameOverPanel.GetComponent<Image>();
         moreTime.CrossFadeAlpha(0, 0, false);
-		pauseAnimator = pausePanel.GetComponentInChildren<Animator>();
+        pauseAnimator = pausePanel.GetComponentInChildren<Animator>();
+        menuAnimator = startPanel.GetComponentInChildren<Animator>();
+        startAnimator = startPanel.GetComponentInChildren<Animator>();
 	}
 	
     public void play()
     {
-		playPanels();
+        playPanels();
     }
 
 	public void playFromPause()
@@ -43,21 +51,31 @@ public class UIController : MonoBehaviour {
 		StartCoroutine(playFromPauseCoroutine());
 	}
 
-	private void playPanels()
+    public void startFromIntro()
+    {
+        StartCoroutine(StartFromIntroCoroutine());
+    }
+    private void playPanels()
 	{
 		gamePanel.SetActive(true);
         startPanel.SetActive(false);
         pausePanel.SetActive(false);
         gameOverPanel.SetActive(false);
-        fundido.CrossFadeAlpha(0, 1, false);
+        fundido.CrossFadeAlpha(0, 0.5f, false);
         moreTime.enabled = false;
-	}
+    }
 
     public void pause()
     {
         pausePanel.SetActive(true);
         gamePanel.SetActive(false);
 		pauseAnimator.SetTrigger("pause_in");
+    }
+
+    public void openMenu()
+    {
+        openMenuAnimator = !openMenuAnimator ;
+        menuAnimator.SetBool("menu_open", openMenuAnimator);
     }
 
     public void ToMainMenu()
@@ -84,9 +102,10 @@ public class UIController : MonoBehaviour {
 
     public void gameOver(float distance, int coins, float bestDistance)
     {
-        fundido.CrossFadeAlpha(1, 1, false);
+        fundido.CrossFadeAlpha(1, 0.5f, false);
         gameOverPanel.SetActive(true);
         gamePanel.SetActive(false);
+        pausePanel.SetActive(false);
         distanceFinalTxt.text = distance.ToString("F2");
         coinsCollectInRound.text = coins.ToString();
 		if (distance > bestDistance)
@@ -151,12 +170,21 @@ public class UIController : MonoBehaviour {
     IEnumerator playFromPauseCoroutine()
     {
         pauseAnimator.SetTrigger("pause_out");
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1f); // Pausado cortina
         playPanels();
         StopCoroutine(playFromPauseCoroutine());
     }
 
-	IEnumerator RecordAnimation(float record)
+    IEnumerator StartFromIntroCoroutine()
+    {
+        startAnimator.SetTrigger("start_game");
+        yield return new WaitForSeconds(4f);
+        gameController.play();
+        StopCoroutine(StartFromIntroCoroutine());
+    }
+
+
+    IEnumerator RecordAnimation(float record)
 	{
 		bestDistanceRecord.text = "NEW RECORD";
 		yield return new WaitForSeconds(1f);

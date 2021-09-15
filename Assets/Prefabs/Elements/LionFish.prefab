@@ -179,7 +179,7 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: 849b2da58f77f469c9c9739ed1effb17, type: 3}
   timeValue: -10
   destroyCollision: 0
-  clockAnimationPrefab: {fileID: 1378018466093882, guid: 45309daaf25db4d39a6a81df801af4f4,
+  clockAnimationPrefab: {fileID: 1590250689781332, guid: 1d781dd3f7c944dba921b45339db9593,
     type: 2}
 --- !u!212 &212184886806451682
 SpriteRenderer:

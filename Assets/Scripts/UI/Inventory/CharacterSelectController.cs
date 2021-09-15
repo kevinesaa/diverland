@@ -45,6 +45,7 @@ public class CharacterSelectController : MonoBehaviour
         }
         this.currentImage.sprite = currentCharacter.baseItem.Image;
         this.nameCharacterText.text = currentCharacter.baseItem.name;
+    
     }
     
     public void NextRigth()
@@ -94,6 +95,7 @@ public class CharacterSelectController : MonoBehaviour
         runningAnimation = false;
         currentImage.sprite = currentCharacter.baseItem.Image;
         nameCharacterText.text = currentCharacter.baseItem.name;
+
         if (transitions.Count == 0)
         {
             inventoryController.ChangeCharacter(currentCharacter);

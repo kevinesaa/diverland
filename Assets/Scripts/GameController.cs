@@ -16,6 +16,7 @@ public class GameController : MonoBehaviour
     */
     public event Action<int, float> OnGameOver;
 
+    public GameObject pauseDisabled;
     public GameObject map;
     public GameObject containerGeneratorElements;
     public Transform initialPlayerPosition;
@@ -202,12 +203,14 @@ public class GameController : MonoBehaviour
 
     public void play()
     {
+        pauseDisabled.SetActive(true);
         player.SetActive(true);
 		player.GetComponent<DiverController>().RestartPlayer();
         initGame();
         myState = GameState.PLAYING;
         uiController.play();
 		uiController.EnabledOxygenAlert(false);
+
 		foreach (GeneratorController generator in generatorControllersList)
 			generator.StartAutomaticGenerator();
     }
@@ -221,6 +224,10 @@ public class GameController : MonoBehaviour
     {
         myState = GameState.PAUSE;
         uiController.pause();
+    }
+    public void PauseOff()
+    {
+        pauseDisabled.SetActive(false);
     }
 
     public void GameOver()
@@ -313,8 +320,9 @@ public class GameController : MonoBehaviour
 	private IEnumerator PlayFromPauseCoroutine()
 	{
 		uiController.playFromPause();
-		yield return new WaitForSeconds(1);
+		yield return new WaitForSeconds(1f); // Pausado personajes
 		myState = GameState.PLAYING;
         StopCoroutine(PlayFromPauseCoroutine());
 	}
+
 }

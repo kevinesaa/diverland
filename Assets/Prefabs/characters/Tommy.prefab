@@ -257,7 +257,7 @@ MonoBehaviour:
   aceleration: 0.5
   delayAceleration: 60
   frencuencyAceleration: 20
-  maxAceleration: 7
+  maxAceleration: 5
 --- !u!114 &114955589486558122
 MonoBehaviour:
   m_ObjectHideFlags: 1

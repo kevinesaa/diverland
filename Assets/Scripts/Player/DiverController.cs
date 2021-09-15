@@ -149,6 +149,7 @@ public class DiverController : MonoBehaviour
     private IEnumerator gameOverAnimation() 
     {
         dead = true;
+        gameController.PauseOff();
         yield return new WaitForSeconds(animationDictionary["deading"]+2);
         gameController.GameOver();
     }

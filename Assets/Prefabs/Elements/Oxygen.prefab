@@ -291,7 +291,7 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: bfbe0718cd37a4c3e9a2b6d205d3810b, type: 3}
   timeValue: 10
   destroyCollision: 1
-  clockAnimationPrefab: {fileID: 1203412213016300, guid: a7490d7c75f4b43de94fc0f8eb99ca65,
+  clockAnimationPrefab: {fileID: 1776361850551532, guid: a7490d7c75f4b43de94fc0f8eb99ca65,
     type: 2}
 --- !u!198 &198408022899090490
 ParticleSystem:
@@ -353,7 +353,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -370981005
+  randomSeed: 1208210700
   InitialModule:
     serializedVersion: 3
     enabled: 1

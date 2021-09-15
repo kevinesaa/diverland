@@ -18,7 +18,4 @@ public class DeleteFromListOnDestroy : MonoBehaviour {
 			ownerList.Remove(gameObject);
 		}
 	}
-
-
-
 }

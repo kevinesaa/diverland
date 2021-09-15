@@ -14,6 +14,7 @@ public class CoinLocalService : ICoinsService
         coinsSaved += coins;
         PlayerPrefs.SetInt(Constants.COIN_SAVED, coinsSaved);
         PlayerPrefs.Save();
+
         if (OnCoinsLoadedSuccessful != null)
             OnCoinsLoadedSuccessful(coinsSaved);
     }

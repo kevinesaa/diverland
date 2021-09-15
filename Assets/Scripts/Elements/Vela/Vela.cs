@@ -7,7 +7,6 @@ public class Vela : ElementBase {
     public float speed;
     public float borderEnter;
 
-
     public override void applyEffectOnCollisionEnter(ref DiverController player)
     {
 

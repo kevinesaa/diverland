@@ -160,7 +160,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 849b2da58f77f469c9c9739ed1effb17, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -260,7 +260,7 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: 849b2da58f77f469c9c9739ed1effb17, type: 3}
   timeValue: -10
   destroyCollision: 0
-  clockAnimationPrefab: {fileID: 1378018466093882, guid: 45309daaf25db4d39a6a81df801af4f4,
+  clockAnimationPrefab: {fileID: 1590250689781332, guid: 1d781dd3f7c944dba921b45339db9593,
     type: 2}
 --- !u!212 &212816809826923880
 SpriteRenderer:

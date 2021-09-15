@@ -395,7 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b0f8fa80aca4a7793a809be89a6c8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: e33c20c7c43784342a74ece3db05701e, type: 3}
   bodyAnimator: {fileID: 95144549403210048}
   mouthAnimator: {fileID: 95548064064437642}
 --- !u!114 &114205665697863080

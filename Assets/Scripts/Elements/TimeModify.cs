@@ -7,7 +7,7 @@ public class TimeModify : ElementBase {
 
     public int timeValue;
 	public bool destroyCollision = false;
-	public GameObject clockAnimationPrefab;
+    public GameObject clockAnimationPrefab;
 
     public override void applyEffectOnCollisionEnter(ref DiverController player)
     {
@@ -25,13 +25,13 @@ public class TimeModify : ElementBase {
         playMySound();
         
 		if(timeValue > 0)
-            player.addTimeAnimation();
-		
-		GameObject clockAnimationObject = Instantiate(clockAnimationPrefab);
-		ClockAnimation clockAnimation = clockAnimationObject.GetComponent<ClockAnimation>();
-		clockAnimation.setTarget(player.gameObject);
+        player.addTimeAnimation();
 
-		if (destroyCollision)
+        GameObject clockAnimationObject = Instantiate(clockAnimationPrefab);
+        ClockAnimation clockAnimation = clockAnimationObject.GetComponent<ClockAnimation>();
+        clockAnimation.setTarget(player.gameObject);
+
+        if (destroyCollision)
 		{
 			enableRender(false);
 			Destroy(this.gameObject, audioClip.length);

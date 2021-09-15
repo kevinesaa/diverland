@@ -28,7 +28,6 @@ public class MapController : MonoBehaviour {
 		InitPreStage();
     }
 	
-	
 	void Update () {
 
         if (player != null && player.transform.position.x > stage.transform.position.x)
@@ -38,7 +37,6 @@ public class MapController : MonoBehaviour {
             swap(ref preStage, ref stage);
             swap(ref preStageController, ref stageController);
         }
-        
 	}
 
     private void swap<T>(ref T var1,ref T var2)
