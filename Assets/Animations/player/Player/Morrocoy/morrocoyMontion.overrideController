@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: morrocoyMontion
+  m_Controller: {fileID: 9100000, guid: 4421273e03ab748e49ecece8c5586aeb, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 80c37fb72972f48ffa5397eb71bfad39, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ae965db95f05d4b91aea5f3188602ce7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9fa9bfb81e5444efdafa8a49090c14c6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e0617cfb26f4d40ac8beb99bd9e64aba, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e313f2875b52945e2befabe6e570a3eb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bb6d49055b809475da55b5f2a8ed038e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dbb857d982f754568b3d137e95ab2503, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 43d6ad5ce5d9c413da96834124e70f29, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 200f19dab1b5449e88026db465738e20, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5905e897980fd4f279628a492ff61545, type: 2}

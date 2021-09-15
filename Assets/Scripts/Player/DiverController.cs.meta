@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 1feafc1888de04badb5eab3cbdabac85
+timeCreated: 1518803934
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - DiverGO: {instanceID: 0}
+  - groundCheckTransform: {instanceID: 0}
+  - jetpack: {instanceID: 0}
+  - coinIconTexture: {fileID: 2800000, guid: 82f6ce290f33147b680cad74e0c5df04, type: 3}
+  - coinCollectSound: {instanceID: 0}
+  - jetpackAudio: {instanceID: 0}
+  - footstepsAudio: {instanceID: 0}
+  - audioFXGO: {instanceID: 0}
+  - audioFXScript: {instanceID: 0}
+  - bgFinalGO: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

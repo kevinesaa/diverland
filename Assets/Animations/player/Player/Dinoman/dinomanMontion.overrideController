@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dinomanMontion
+  m_Controller: {fileID: 9100000, guid: 4421273e03ab748e49ecece8c5586aeb, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 80c37fb72972f48ffa5397eb71bfad39, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5224ff7cf54cd41e5b716f1de1bfc942, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9fa9bfb81e5444efdafa8a49090c14c6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 86b8b5bdbfa514b7aa3171958e253439, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e313f2875b52945e2befabe6e570a3eb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d4e3e1b60f2634f94a0ef790725d081a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dbb857d982f754568b3d137e95ab2503, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 88ef7a62d93824a46bf79a5741cf26c6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 200f19dab1b5449e88026db465738e20, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 75fa8e8e4905e4a47b7c45d28626a059, type: 2}

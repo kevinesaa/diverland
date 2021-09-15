@@ -1,0 +1,838 @@
+fileFormatVersion: 2
+guid: 00a81597be0a0468a90953fb79b1ea32
+timeCreated: 1542809629
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Morrocoy_0
+    21300002: Morrocoy_1
+    21300004: Morrocoy_2
+    21300006: Morrocoy_3
+    21300008: Morrocoy_4
+    21300010: Morrocoy_5
+    21300012: Morrocoy_6
+    21300014: Morrocoy_7
+    21300016: Morrocoy_8
+    21300018: Morrocoy_9
+    21300020: Morrocoy_10
+    21300022: Morrocoy_11
+    21300024: Morrocoy_12
+    21300026: Morrocoy_13
+    21300028: Morrocoy_14
+    21300030: Morrocoy_15
+    21300032: Morrocoy_16
+    21300034: Morrocoy_17
+    21300036: Morrocoy_18
+    21300038: Morrocoy_19
+    21300040: Morrocoy_20
+    21300042: Morrocoy_21
+    21300044: Morrocoy_22
+    21300046: Morrocoy_23
+    21300048: Morrocoy_24
+    21300050: Morrocoy_25
+    21300052: Morrocoy_26
+    21300054: Morrocoy_27
+    21300056: Morrocoy_28
+    21300058: Morrocoy_29
+    21300060: Morrocoy_30
+    21300062: Morrocoy_31
+    21300064: Morrocoy_32
+    21300066: Morrocoy_33
+    21300068: Morrocoy_34
+    21300070: Morrocoy_35
+    21300072: Morrocoy_36
+    21300074: Morrocoy_37
+    21300076: Morrocoy_38
+    21300078: Morrocoy_39
+    21300080: Morrocoy_40
+    21300082: Morrocoy_41
+    21300084: Morrocoy_42
+    21300086: Morrocoy_43
+    21300088: Morrocoy_44
+    21300090: Morrocoy_45
+    21300092: Morrocoy_46
+    21300094: Morrocoy_47
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Morrocoy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1801
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1801
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_2
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1801
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_3
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1801
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_4
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1801
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_5
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1801
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1554
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1554
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_8
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1554
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_9
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1554
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_10
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1554
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_11
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1554
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1307
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1307
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_14
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1307
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_15
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1307
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_16
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1307
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_17
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1307
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1060
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_19
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1060
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_20
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1060
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_21
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1060
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_22
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1060
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_23
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1060
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 813
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_25
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 813
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_26
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 813
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_27
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 813
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_28
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 813
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_29
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 813
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 566
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 566
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_32
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 566
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_33
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 566
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_34
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 566
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_35
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 566
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_37
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 319
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_38
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 319
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_39
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 319
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_40
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 319
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_41
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 319
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_43
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 72
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_44
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 72
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_45
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 72
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_46
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 72
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morrocoy_47
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 72
+        width: 341
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

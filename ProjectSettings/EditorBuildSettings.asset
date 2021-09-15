@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: f9487adb77492439e9e53b403d0df658
+  - enabled: 1
+    path: Assets/Scenes/DiverLand.unity
+    guid: a7b6040bd07554a1794a6e151bb7c11e
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 2ae4f18aba9cf48788327a6b4336d731
+  - enabled: 1
+    path: Assets/Scenes/Inventory.unity
+    guid: 58d7506ad6a30e24f8457dd1bc303193
